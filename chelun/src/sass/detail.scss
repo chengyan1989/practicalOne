@@ -1,0 +1,80 @@
+.detail-page {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    background: #f4f4f4;
+    .img {
+        width: 100%;
+        height: 3.29rem;
+        overflow: hidden;
+        position: relative;
+        img {
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            position: absolute;
+        }
+    }
+}
+
+.info {
+    width: 100%;
+    padding: .36rem .2rem .3rem;
+    box-sizing: border-box;
+    display: flex;
+    background: #fff;
+    .pic {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        span:first-child {
+            display: block;
+            height: 0.6rem;
+            line-height: 0.6rem;
+            font-size: .36rem;
+            color: red;
+            font-weight: 500;
+        }
+        span:last-child {
+            display: block;
+            height: 0.4rem;
+            line-height: 0.4rem;
+            font-size: .26rem;
+            color: silver;
+        }
+    }
+    .ask {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+            width: 100%;
+            height: 0.8rem;
+            background: #00afff;
+            color: #fff;
+            border-radius: 0.1rem;
+            border: 0;
+            font-size: 0.28rem;
+        }
+    }
+}
+
+.car-list {
+    .car-data {
+        border-top: .15rem solid #f4f4f4;
+        padding: 0 .3rem;
+        font-size: .32rem;
+        height: .77rem;
+        line-height: .77rem;
+        background: #fff;
+        span {
+            padding-right: .46rem;
+        }
+        span.active {
+            color: #3aacff;
+        }
+    }
+}
