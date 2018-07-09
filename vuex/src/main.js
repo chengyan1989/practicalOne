@@ -2,17 +2,14 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import router from './router'
-import VueLazyload from "vue-lazyload";
-import "./sass/reset.scss";
-Vue.config.productionTip = false
+import store from "./store/index";
 
-Vue.use(VueLazyload);
+Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
     el: '#app',
-    router,
+    store,
     components: { App },
     template: '<App/>'
 })

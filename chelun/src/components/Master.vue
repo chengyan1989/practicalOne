@@ -8,7 +8,7 @@
                 <ul class="content-list">
                     <li v-for="(val,key) in item.GroupList" :key="key" :data-id="val.SerialID" @click="cardetails(val.SerialID)">
                         <div class="img">
-                            <img :src="val.Picture">
+                            <img v-lazy="val.Picture">
                         </div>
                             <div class="content-text">
                                 <p>{{val.AliasName}}</p>

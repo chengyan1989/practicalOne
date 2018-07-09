@@ -1,5 +1,11 @@
 <template>  
     <div class="wrap">
+        <div class="loading" v-show='loadFlag'>
+            <div class="img-box">
+                <img src="../assets/loading.gif" alt="">
+                <span>加载中...</span>
+            </div>
+        </div>
         <letter :letter="letter" :changeLetter="changeLetter"/> 
         <div class="carlist-box" ref="carlistbox">
             <CarList :carList="carList" :carListClick="carListClick"/>
@@ -24,6 +30,7 @@ import Master from "./Master";
               carList:[],//首页列表
               masterList:[],//汽车品牌列表
               masterIsShow:"",//是否显示汽车品牌列表,
+              loadFlag:true,//是否显示loading画面
             }  
         },
         methods:{ 
@@ -68,7 +75,8 @@ import Master from "./Master";
 						}) ;
                         letter.unshift("#");
 						this.letter=letter;
-						this.carList=carlist;
+                        this.carList=carlist;
+                        this.loadFlag=false;
 					})
 				})
             },
