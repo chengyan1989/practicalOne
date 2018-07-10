@@ -1,0 +1,86 @@
+{
+    "data": {
+        "name": "shopingCar",
+        "list": [{
+                "img": "http://www.people.com.cn/mediafile/pic/20141006/44/4065137631107140600.jpg",
+                "tit": "三元牛奶（小方白1）250ml*24盒新老包装随机发放",
+                "pic": "4.5",
+                "zhong": "24.8kg",
+                "count": 0,
+                "checked": false
+            },
+            {
+                "img": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1393659108,158015860&fm=200&gp=0.jpg",
+                "tit": "三元牛奶（小方白）250ml*24盒新老包装随机发放",
+                "pic": "5.5",
+                "zhong": "24.8kg",
+                "count": 0,
+                "checked": false
+            },
+            {
+                "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1813425769,3007164947&fm=200&gp=0.jpg",
+                "tit": "lian（小方白2）250ml*24盒新老包装随机发放",
+                "pic": "10",
+                "zhong": "24.8kg",
+                "count": 0,
+                "checked": false
+            },
+            {
+                "img": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3803143507,2343883664&fm=200&gp=0.jpg",
+                "tit": "三元牛奶（小方白3）250ml*24盒新老包装随机发放",
+                "pic": "49.9",
+                "zhong": "24.8kg",
+                "count": 0,
+                "checked": false
+            },
+            {
+                "img": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3457313223,220678581&fm=200&gp=0.jpg",
+                "tit": "三元牛奶（小方白4）250ml*24盒新老包装随机发放",
+                "pic": "20",
+                "zhong": "24.8kg",
+                "count": 0,
+                "checked": false
+            },
+            {
+                "img": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1393659108,158015860&fm=200&gp=0.jpg",
+                "tit": "三元牛奶（小方白5）250ml*24盒新老包装随机发放",
+                "pic": "5",
+                "zhong": "24.8kg",
+                "count": 0,
+                "checked": false
+            },
+            {
+                "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1813425769,3007164947&fm=200&gp=0.jpg",
+                "tit": "三元牛奶（小方白6）250ml*24盒新老包装随机发放",
+                "pic": "3",
+                "zhong": "24.8kg",
+                "count": 0,
+                "checked": false
+            },
+            {
+                "img": "http://www.people.com.cn/mediafile/pic/20141006/44/4065137631107140600.jpg",
+                "tit": "三元牛奶（小方白1）250ml*24盒新老包装随机发放",
+                "pic": "4.5",
+                "zhong": "24.8kg",
+                "count": 0,
+                "checked": false
+            },
+            {
+                "img": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1393659108,158015860&fm=200&gp=0.jpg",
+                "tit": "三元牛奶（小方白）250ml*24盒新老包装随机发放",
+                "pic": "5.5",
+                "zhong": "24.8kg",
+                "count": 0,
+                "checked": false
+            },
+            {
+                "img": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1813425769,3007164947&fm=200&gp=0.jpg",
+                "tit": "lian（小方白2）250ml*24盒新老包装随机发放",
+                "pic": "10",
+                "zhong": "24.8kg",
+                "count": 0,
+                "checked": false
+            }
+        ]
+    }
+}

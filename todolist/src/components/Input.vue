@@ -16,14 +16,7 @@ export default {
                 })
             }
         }
-    },
-    // methods: {
-    //     changeInput(e){
-    //         this.$store.commit('changeInput', {
-    //             input: e.target.value
-    //         })
-    //     }
-    // }
+    }
 }
 </script>
 
