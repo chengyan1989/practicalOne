@@ -1,0 +1,13 @@
+<!--pages/add/add.wxml-->
+<scroll-view scroll-y="true" style="height: 100%;">
+    <view class="add-page">
+        <view class="left">
+            <view wx:for="{{addTit}}" class="{{isActive==index?'active':''}}" wx:key="{{index}}" data-index="{{index}}" bindtap='cityClick'>
+                {{item}}
+            </view>
+        </view>
+        <view class="content">
+            <view wx:for="{{addCity}}" class="item">{{item.name}}</view>
+        </view>
+    </view>
+</scroll-view>

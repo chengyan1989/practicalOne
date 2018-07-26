@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="herader">音乐播放列表</view>
+  <view class="list">
+    <view class="item" wx:for="{{songs}}" wx:key="{{index}}" bindtap="songClick" data-index="{{index}}">
+      <block>
+        <image src="{{item.image}}"></image>
+        <view class="textlist">
+          <text class="songname">歌名：{{item.title}}</text>
+          <text>音乐人：{{item.author}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

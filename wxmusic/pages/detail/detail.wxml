@@ -1,0 +1,21 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail-page">
+    <view class="image-box">
+        <image src="{{currentList.image}}" animation="{{animation}}"></image>
+    </view>
+    <view class="content-box">
+        <text>{{currentList.name}}</text>
+        <text>{{currentList.author}}</text>
+    </view>
+    <view class="audio-box">
+        <view class="play-box" wx:if="{{isplay==true}}" bindtap='stop' wx:if="{{isplay==false}}" bindtap='play'>
+            <image src='../../image/play-btn.png'></image>
+        </view>
+        <view class="play-box" wx:if="{{isplay==true}}" bindtap='stop' wx:if="{{isplay==true}}" bindtap='pause'>
+            <image src='../../image/pause-bytn.png'></image>
+        </view>
+    </view>
+    <view class="progress-box">
+        <progress percent="{{percent}}" stroke-width="8"/>
+    </view>
+</view>

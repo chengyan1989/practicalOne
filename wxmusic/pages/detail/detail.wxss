@@ -1,0 +1,83 @@
+/* pages/detail/detail.wxss */
+page{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.detail-page{
+    width:100%;
+    height:100%;
+    background:#000; 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top:50rpx;
+}
+.image-box{
+width:480rpx;
+height:480rpx;
+display: flex;
+justify-content: center;
+}
+.image-box image{
+    border-radius: 50%;
+    width: 480rpx;
+    height: 480rpx;
+    border:5px solid #fff;
+    box-sizing: border-box;
+    /* transform: rotate(360); */
+    /* animation: rotate 1s linear infinite;
+    animation-play-state: stop; */
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+.content-box{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    margin-top:50rpx; 
+}
+.content-box text:first-child{
+    width:100%;
+    text-align: center;
+    font-size: 40rpx;
+    color: #fff;
+    line-height: 100rpx;
+}
+.content-box text:last-child{
+    width: 100%;
+    text-align: center;
+    font-size: 36rpx;
+    color: gray;
+}
+.audio-box{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40rpx; 
+}
+.play-box{
+    width:200rpx;
+    height:200rpx;
+}
+.play-box image{
+     width:200rpx;
+    height:200rpx;
+}
+.progress-box{
+    width:100%;
+    margin-top:30rpx; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress-box progress{
+    width:90%;
+}

@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="tit">
+        <view>中国
+            <text>34</text>个省，
+            <text>660</text>个城市</view>
+        <view>你去过多少？</view>
+    </view>
+    <view class="image">
+        <image src="../../image/map.jpg"></image>
+    </view>
+    <view class="btn">
+        <button type="primary" bindtap="start">开始</button>
+        <button type="warn">更多好玩</button>
+    </view>
+</view>

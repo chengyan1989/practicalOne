@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="header">cy-music</view>
+    <view class="songList">
+        <view class="song" wx:for="{{songlist}}" wx:key="{{index}}" data-index="{{index}}" bindtap='songclick'>
+            <image src="{{item.image}}"></image>
+            <view class="tit">
+                <text>名字{{item.name}}</text>
+                <text>{{item.author}}</text>
+            </view>
+        </view>
+    </view>
+</view>

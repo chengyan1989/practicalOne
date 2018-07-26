@@ -1,0 +1,279 @@
+.carquotation {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-top: 0.6rem;
+  box-sizing: border-box;
+  padding-bottom: 1rem;
+}
+
+header {
+  height: .6rem;
+  line-height: .6rem;
+  width: 100%;
+  background: #79cd92;
+  text-align: center;
+  z-index: 99;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: .3rem;
+}
+
+.context-box {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.context {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.context .car-ifo {
+  width: 100%;
+  display: flex;
+  padding: .32rem .18rem .24rem;
+  box-sizing: border-box;
+}
+
+.context .car-ifo .img {
+  width: 2.3rem;
+  height: 1.41rem;
+  border: .04rem solid #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 0.2rem;
+}
+
+.context .car-ifo .img img {
+  width: 100%;
+}
+
+.context .car-ifo .infor-box {
+  width: 100%;
+  flex: 1;
+}
+
+.context .car-ifo .infor-box h1 {
+  width: 100%;
+  height: 0.7rem;
+  font-size: .36rem;
+  color: #222222;
+}
+
+.context .car-ifo .infor-box h2 {
+  width: 100%;
+  font-weight: normal;
+  display: flex;
+  margin-top: 0.3rem;
+}
+
+.context .car-ifo .infor-box h2 span {
+  display: block;
+  font-size: .3rem;
+}
+
+.self-info {
+  width: 100%;
+}
+
+.self-info .self-info-tit {
+  padding: 0 0.2rem;
+  height: .6rem;
+  line-height: .6rem;
+  font-size: .24rem;
+  color: #666;
+  background: #eee;
+}
+
+.self-info-box {
+  width: 100%;
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+}
+
+.self-info-box li {
+  width: 100%;
+  font-size: .32rem;
+  height: .88rem;
+  line-height: .88rem;
+  border-bottom: 1px solid #eee;
+  color: #000;
+  display: flex;
+}
+
+.self-info-box li:last-child {
+  justify-content: space-between;
+}
+
+.self-info-box li:last-child span:last-child {
+  color: #555;
+  font-size: .32rem;
+  display: inline-block;
+  padding-right: 0.2rem;
+}
+
+.self-info-box li:last-child span:last-child::after {
+  content: "";
+  display: inline-block;
+  padding-top: .16rem;
+  padding-right: .16rem;
+  border-top: 1px solid silver;
+  border-right: 1px solid silver;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.self-info-box li input {
+  flex: 1;
+  border: 0;
+  font-size: .32rem;
+  padding-right: .2rem;
+  text-align: right;
+  box-sizing: border-box;
+  color: #555;
+}
+
+.self-info-quotation {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.self-info-quotation button {
+  font-size: .32rem;
+  color: #fff;
+  width: 80%;
+  background: #3aacff;
+  height: .7rem;
+  border-radius: .1rem;
+  border: 0;
+}
+
+.dealer-info {
+  width: 100%;
+}
+
+.dealer-info .dealer-info-tit {
+  padding: 0 0.2rem;
+  height: .6rem;
+  line-height: .6rem;
+  font-size: .24rem;
+  color: #666;
+  background: #eee;
+}
+
+.car-company-list {
+  width: 100%;
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+  border-bottom: 0.2rem solid #ccc;
+}
+
+.car-company-list li {
+  width: 100%;
+  display: flex;
+  position: relative;
+  padding-left: 0.6rem;
+  box-sizing: border-box;
+}
+
+.car-company-list li::before {
+  content: "";
+  display: inline-block;
+  width: .32rem;
+  height: .32rem;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  position: absolute;
+  left: .05rem;
+  top: 50%;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+
+.car-company-list li.active:before {
+  background: #3aacff;
+  border: none;
+}
+
+.car-company-list li.active:after {
+  content: "";
+  display: inline-block;
+  padding-top: .17rem;
+  padding-right: .1rem;
+  border: 2px solid #fff;
+  -webkit-transform: rotate(40deg) translate3d(0, -50%, 0);
+  transform: rotate(40deg) translate3d(0, -50%, 0);
+  position: absolute;
+  left: .07rem;
+  border-left: none;
+  border-top: none;
+  top: 47%;
+}
+
+.car-company-list li .company-box {
+  flex: 1;
+}
+
+.car-company-list li .company-box .company-name {
+  display: flex;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  justify-content: space-between;
+}
+
+.car-company-list li .company-box .company-name b {
+  font-weight: normal;
+  font-size: 0.3rem;
+}
+
+.car-company-list li .company-box .company-name span {
+  font-weight: normal;
+  font-size: 0.3rem;
+  color: red;
+}
+
+.car-company-list li .company-box .company-add {
+  display: flex;
+  justify-content: space-between;
+}
+
+.car-company-list li .company-box .company-add span {
+  line-height: 0.4rem;
+  font-size: .28rem;
+  color: #a2a2a2;
+}
+
+.car-company-list li .company-box .company-add span:first-child {
+  flex: 1;
+}
+
+.car-company-list li .company-box .company-add span:last-child {
+  width: 1.2rem;
+  text-align: right;
+}
+
+footer {
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  background: #3aacff;
+  text-align: center;
+  font-size: .34rem;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

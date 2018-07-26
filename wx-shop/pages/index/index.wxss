@@ -1,0 +1,27 @@
+/**index.wxss**/
+.tit view{
+    color: #fff;
+    font-size: 32rpx;
+   line-height: 60rpx;
+   letter-spacing:5rpx;
+}
+.tit text{
+    font-size: 40rpx;
+    color: orange;
+}
+.image{
+    width:100%;
+    text-align:center;
+    margin-top:40rpx;
+
+}
+.btn{
+    width:100%;
+}
+.btn button{
+    width:60%;
+    border-radius: 20rpx;
+}
+.btn button:last-child{
+    margin-top:20rpx; 
+}

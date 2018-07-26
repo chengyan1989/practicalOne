@@ -1,0 +1,39 @@
+.car-page {
+    width: 100%;
+}
+
+.car-list {
+    width: 100%;
+}
+
+.list {
+    width: 100%;
+    .carTit {
+        font-size: .28rem;
+        line-height: .8rem;
+        background: #f4f4f4;
+        padding-left: .3rem;
+        color: #aaa;
+    }
+    .list-content {
+        width: 100%;
+        padding: 0 0.2rem;
+        box-sizing: border-box;
+        li {
+            display: flex;
+            align-items: center;
+            border-bottom: 0.01rem solid #ddd;
+            span {
+                width: 0.8rem;
+                img {
+                    width: 100%;
+                }
+            }
+            h1 {
+                font-size: .32rem;
+                margin-left: .4rem;
+                font-weight: normal;
+            }
+        }
+    }
+}
