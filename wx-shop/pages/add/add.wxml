@@ -1,13 +1,13 @@
 <!--pages/add/add.wxml-->
-<scroll-view scroll-y="true" style="height: 100%;">
-    <view class="add-page">
-        <view class="left">
-            <view wx:for="{{addTit}}" class="{{isActive==index?'active':''}}" wx:key="{{index}}" data-index="{{index}}" bindtap='cityClick'>
-                {{item}}
-            </view>
-        </view>
-        <view class="content">
-            <view wx:for="{{addCity}}" class="item">{{item.name}}</view>
+<view class="add-page">
+    <view class="left">
+        <view wx:for="{{addTit}}" class="{{isActive==index?'active':''}}" wx:key="{{index}}" data-index="{{index}}" bindtap='cityClick'>
+            {{item.name}}
+            <text class="addnum" wx:if="{{item.count>0}}">{{item.count}}</text>
         </view>
     </view>
-</scroll-view>
+    <view class="content">
+        <view wx:for="{{addCity}}" class="{{item.isCkecked?'itemcheck':'item'}}" wx:key="{{index}}" data-index="{{index}}" bindtap="checkeds">{{item.name}}</view>
+        <button bindtap="setDisabled" type="primary" class="btn" open-type="getUserInfo" bindgetuserinfo='subimit'>提交</button>
+    </view>
+</view>
