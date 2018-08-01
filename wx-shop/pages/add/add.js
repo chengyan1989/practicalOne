@@ -23,6 +23,7 @@ Page({
     checkeds(e) {
         let index = e.currentTarget.dataset.index;
         let addCity = this.data.addCity;
+        console.log(addCity);
         if (addCity[index].isCkecked==false){
             addCity[index].isCkecked = true;
         }else{
@@ -32,6 +33,7 @@ Page({
         this.setData({
             addCity
         });
+        console.log(this.data.addCity);
         let id;
         let addTit = this.data.addTit;
         this.data.addCity.forEach(item => {
@@ -64,7 +66,6 @@ Page({
             }
         });
         this.data.addCity.forEach(item=>{
-            console.log(item);
             if(item.isCkecked&&cityName.indexOf(item.name)==-1){
                 cityName.push(item.name);
             }

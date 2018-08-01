@@ -2,7 +2,7 @@
 export let getAdd = () => {
     return new Promise((resolve, reject) => {
         wx.request({
-            url: 'https://www.easy-mock.com/mock/5b56d877008bc8159f336325/getmusic_copy/getmusic',
+            url: 'https://mock.jasonandjay.com/mock/5b600fe57a32f77e39e46b1a/example/myshop',
             success: (res) => {
                 resolve(res.data);
             },

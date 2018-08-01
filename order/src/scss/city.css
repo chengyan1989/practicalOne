@@ -1,0 +1,34 @@
+.city-page {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: .28rem;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  background: #3190e8;
+  padding: 0 0.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+header span {
+  color: #fff;
+  font-size: .32rem;
+}
+
+header span:first-child {
+  font-size: .6rem;
+}
+
+header b {
+  font-size: .36rem;
+  font-style: normal;
+  color: #fff;
+}

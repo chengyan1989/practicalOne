@@ -1,0 +1,12 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail-page">
+    <view class="header">{{pageTiT}}</view>
+    <scroll-view scroll-y="true" class="goods-list">
+        <view class="goods-list-ul">
+            <view class="goods-list-li" wx:for="{{goodsList}}">
+                <image src="{{item.image_url}}"></image>
+                <text>{{item.title}}</text>
+            </view>
+        </view>
+    </scroll-view>
+</view>

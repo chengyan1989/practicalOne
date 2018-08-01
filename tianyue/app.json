@@ -1,0 +1,40 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/classify/classify",
+        "pages/car/car",
+        "pages/detail/detail"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "上善藏传老铺文玩",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#8a8a8a",
+        "selectedColor": "#1296db",
+        "borderStyle": "black",
+        "backgroundColor": "#e6e6e6",
+        "list": [
+            {
+                "selectedIconPath": "image/homeB.png",
+                "iconPath": "image/home.png",
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "selectedIconPath": "image/listB.png",
+                "iconPath": "image/list.png",
+                "pagePath": "pages/car/car",
+                "text": "购物车"
+            },
+            {
+                "selectedIconPath": "image/userB.png",
+                "iconPath": "image/user.png",
+                "pagePath": "pages/classify/classify",
+                "text": "分类"
+            }
+        ]
+    }
+}
